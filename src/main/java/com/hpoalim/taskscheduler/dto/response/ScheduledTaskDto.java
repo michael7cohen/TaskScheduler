@@ -2,7 +2,6 @@ package com.hpoalim.taskscheduler.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.hpoalim.taskscheduler.model.Station;
-import com.hpoalim.taskscheduler.model.WorkOrder;
 import lombok.*;
 
 import java.time.LocalDateTime;

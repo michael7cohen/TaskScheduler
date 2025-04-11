@@ -1,7 +1,6 @@
 package com.hpoalim.taskscheduler.server;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hpoalim.taskscheduler.dto.response.ScheduledTaskDto;
 import com.hpoalim.taskscheduler.dto.response.ScheduledTaskResponse;
 import com.hpoalim.taskscheduler.model.*;
@@ -18,7 +17,7 @@ import java.util.Map;
 
 @Service
 @AllArgsConstructor
-public class Test {
+public class TaskService {
 
     private final Scheduler scheduler;
 
